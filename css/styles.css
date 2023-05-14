@@ -42,6 +42,8 @@ img {
 .main-header {
   display: block;
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .top-nav {
   display: flex;
@@ -154,6 +156,8 @@ img {
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
     url(../images/people-office\ 1.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 188px 0 188px;
   margin: 0 auto;
 }
@@ -356,9 +360,11 @@ img {
 }
 .general-main-footer {
   display: flex;
+  align-items: baseline;
 }
 .footer-list {
   display: block;
+  margin-right: 120px;
 }
 .footer-text {
   font-family: 'Roboto', sans-serif;
@@ -397,7 +403,6 @@ img {
 }
 .footer-social-media {
   display: block;
-  margin-left: 120px;
 }
 .footer-social-list-link {
   display: flex;
@@ -407,6 +412,11 @@ img {
   height: 40px;
   border-radius: 50%;
   background: #4d5ae5;
+}
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
 }
 .footer-social-list-link:hover,
 .footer-social-list-link:focus {
@@ -478,6 +488,16 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+}
+.portfolio-nav-btn:hover,
+.portfolio-nav-btn:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio-item:hover,
+.portfolio-item:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 /* =========PORTFOLIO======== */
 pattern {
