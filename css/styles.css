@@ -353,15 +353,11 @@ img {
   border-radius: 4px;
 }
 .customer-list-link {
-  color: #8e8f99;
+  fill: #8e8f99;
   border: 1px solid #8e8f99;
 }
-.customer-list-link:hover .customer-list-icon {
-  fill: #404bbf;
-}
 .customer-list-icon {
-  color: currentColor;
-  fill: #8e8f99;
+  fill: currentColor;
 }
 .customer-list-item {
   width: calc((100% - 120px) / 6);
