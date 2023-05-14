@@ -154,7 +154,7 @@ img {
   max-width: 1440px;
   background: #2e2f42;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(../images/people-office\ 1.jpg);
+    url(../images/people-office-1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -250,7 +250,7 @@ img {
 .social-list {
   display: flex;
   justify-content: center;
-  column-gap: 24px;
+  gap: 24px;
 }
 .social-list-link {
   display: flex;
@@ -286,6 +286,8 @@ img {
 .team-list {
   background-color: #ffffff;
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16),
+    0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .team-name {
   font-family: 'Roboto', sans-serif;
@@ -308,8 +310,11 @@ img {
   margin-bottom: 8px;
 }
 .team-name-position {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
+/* .section-four-social-list {
+  padding: 32px 0;
+} */
 /* ========SECTION4======= */
 /* ========SECTION5======= */
 .section-five {
