@@ -151,6 +151,9 @@ img {
 .section-one {
   max-width: 1440px;
   background: #2e2f42;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url(../images/people-office\ 1.jpg);
+  background-size: cover;
   padding: 188px 0 188px;
   margin: 0 auto;
 }
@@ -214,6 +217,15 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.our-advantage-list {
+  display: flex;
+  width: 264px;
+  height: 112px;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+}
 /* =========SECTION 2======= */
 /* ========SECTION3======= */
 .section-three {
@@ -229,6 +241,20 @@ img {
 }
 .section-three-title {
   margin-bottom: 72px;
+}
+.social-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+}
+.social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #4d5ae5;
 }
 /* ========SECTION3======= */
 /* ========SECTION4======= */
@@ -267,11 +293,51 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
+  margin-bottom: 8px;
 }
 .team-name-position {
   padding: 32px 16px;
 }
 /* ========SECTION4======= */
+/* ========SECTION5======= */
+.section-five {
+  max-width: 1440px;
+  padding: 120px 0 120px;
+  margin: 0 auto;
+}
+.custom-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 72px;
+}
+.customer-list {
+  display: flex;
+  justify-content: center;
+  column-gap: 24px;
+}
+.customer-list-link {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 88px;
+}
+.customer-list-link:hover,
+.customer-list-link:focus {
+  border: 1px solid #404bbf;
+  border-radius: 4px;
+}
+.customer-list-link:hover .customer-list-icon {
+  fill: #404bbf;
+}
+/* ========SECTION5======= */
 /* ==========FOOTER========= */
 .main-footer {
   background: #2e2f42;
@@ -306,6 +372,17 @@ img {
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
+}
+.footer-social-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.footer-social-media {
+  display: block;
 }
 /* ==========FOOTER========= */
 /* =========PORTFOLIO======== */
